@@ -5,7 +5,7 @@ I have designed and developed a file management web application using Django tha
 
 - User Registration: Allows users to register to upload files.
 
-- Add File: Enables users to add a title, description, and upload files in any supported format in the '''files''' folder.
+- Add File: Enables users to add a title, description, and upload files in any supported format in the ```files``` folder.
 
 - File Detail: More file description.
 
@@ -14,6 +14,12 @@ I have designed and developed a file management web application using Django tha
 - Django Admin Interface: Provides site administrators with the ability to view, add, edit, and delete any file or user on the application.
  
 Warning: for security reasons, the user must be part of a group to view and edit files and tags (named Standard here).
+
+
+
+I used the ```drf_spectacular``` for better usage of the api.
+
+Please note that in order to upload or modify a file, using PostMan is necessary as Swagger did not allow me to place hyperlinks as easily. All the rest is accessible through Swagger.
 
 
 
