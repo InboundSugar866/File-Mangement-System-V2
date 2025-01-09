@@ -3,17 +3,17 @@
 ## Description
 I have designed and developed a file management web application using Django that enables users to add, update, and delete various types of files, including PDFs, images, documents, audio, and video files.
 
-- User Registration: Allows users to register to upload files, while already uploaded files can be downloaded without logging in.
+- User Registration: Allows users to register to upload files.
 
-- Add File: Enables users to add a title, description, and upload files in any supported format.
+- Add File: Enables users to add a title, description, and upload files in any supported format in the '''files''' folder.
 
-- Edit File: Permits users to modify the details of uploaded files.
+- File Detail: More file description.
 
-- Delete File: Allows users to remove files they have uploaded.
-
-- Profile Management: Users can edit their profile description and details.
+- File Tags: Allows the users to add specific tags to a file in order to find them more easily.
 
 - Django Admin Interface: Provides site administrators with the ability to view, add, edit, and delete any file or user on the application.
+ 
+Warning: for security reasons, the user must be part of a group to view and edit files and tags (named Standard here).
 
 
 
